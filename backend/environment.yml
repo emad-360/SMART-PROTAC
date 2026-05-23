@@ -1,0 +1,14 @@
+name: protac-deploy
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  - openbabel
+
+  - pip
+
+  - pip:
+      - -r requirements.txt

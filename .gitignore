@@ -1,0 +1,96 @@
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+.vite/
+.turbo/
+
+# ESLint
+.eslintcache
+
+# Build cache
+.parcel-cache/
+.netlify/
+.vercel/
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+.pytest_cache/
+
+# Conda / Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python build
+build/
+*.egg-info/
+*.egg
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Editor
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+.idea/
+
+.DS_Store
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Model files
+# =========================
+backend/models/*.pt
+
+# Optional large folders
+backend/data/
+backend/runs/
+backend/logs/

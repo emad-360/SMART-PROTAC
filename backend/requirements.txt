@@ -1,0 +1,14 @@
+fastapi[standard]
+python-multipart
+
+torch
+torchvision
+torch-geometric
+
+numpy
+scipy
+pandas
+
+fair-esm
+
+se3-transformer-pytorch
