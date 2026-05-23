@@ -55,6 +55,23 @@ def parse_fasta(content: bytes):
         if not line.startswith(">")
     )
 
+@app.get("/")
+def root():
+
+    return {
+
+        "message":
+        "SMART-PROTAC API",
+
+        "docs":
+        "/docs",
+
+        "health":
+        "/health",
+
+        "predict":
+        "/predict"
+    }
 
 @app.post("/predict")
 async def predict(

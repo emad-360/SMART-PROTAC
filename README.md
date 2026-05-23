@@ -2,6 +2,26 @@
 
 Advanced deep learning for predicting PROTAC-mediated protein degradation with state-of-the-art accuracy.
 
+## Techstack
+### Frontend:
+- React 19
+- React Router DOM
+- Vite
+- TailwindCSS
+- Axios
+- Lucide React
+### Backend:
+- FastAPI
+- Uvicorn 
+- PyTorch
+- PyTorch Geometric
+- NumPy
+- SciPy
+- Pandas
+- OpenBabel
+- Fair-ESM
+- SE3-Transformer-PyTorch
+
 ## Prerequisites
 
 Install the following before setup:
@@ -112,7 +132,6 @@ SMART-PROTAC/
 ├── backend/
 │   ├── casestudy/
 │   ├── models/
-│   ├── casestudy.py
 │   ├── inference.py
 │   ├── main.py
 │   ├── model.py
